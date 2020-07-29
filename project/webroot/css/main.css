@@ -1,0 +1,152 @@
+body{
+   background-color: #F3F3F3;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    background-color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 30px;
+    -webkit-box-shadow: 0px 4px 35px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 35px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 35px -1px rgba(0,0,0,0.75);
+}
+.main{
+    margin-top: 120px;
+}
+.profile{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 4px 12px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 12px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 12px -5px rgba(0,0,0,0.75);
+}
+
+.profile__img{
+    width: 150px;
+    height: 150px;
+}
+.profile__img img{
+    width: 100%;
+    height: 100%;
+}
+
+.profile__fio{
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.profile__email{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.profile__phone{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.b{
+    font-weight: 600;
+}
+
+.btn{
+    font-weight: 600;
+}
+
+.btn-profile{
+    margin-left: 30px;
+}
+
+.ank{
+    background-color: white;
+    padding: 30px 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.ank__img{
+    width: 250px;
+    height: 250px;
+}
+
+.ank__img img{
+    width: 100%;
+    height: 100%;
+}
+
+.ank__title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.ank__atr{
+    margin-top: 10px;
+}
+
+.ank__atr-name{
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ank__atr-value{
+    margin-bottom: 2px;
+}
+
+.ank__atr-line{
+    margin-bottom: 10px;
+}
+
+.btn__save{
+    margin-bottom: 30px;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.register__form{
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.register__title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.register__atr{
+    margin-top: 10px;
+}
+
+.register__atr-name{
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 15px; 
+}
+
+.btn__register{
+    margin-top: 10px;
+}
